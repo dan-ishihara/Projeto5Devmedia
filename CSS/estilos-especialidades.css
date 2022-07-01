@@ -1,0 +1,111 @@
+/* Início CSS Main*/
+
+main nav {
+    text-align: center;
+}
+
+main nav ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.menu-especialidade li {
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-especialidade li a {
+    text-decoration: none;
+    border-bottom: 2px solid #00CAD1;
+    color: #0000008c;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.menu-especialidade li a:hover {
+    color: #004C50;
+}
+
+.sessao-especialidade {
+    margin-top: 40px;
+}
+
+.container-titulo {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.container-titulo p {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.box-img-tabela {
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+}
+
+figure img {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tabela-especialistas {
+    border-spacing: 0;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+}
+
+.tabela-especialistas thead tr {
+    background-color: #00cad1;
+    color: #fff;
+}
+
+.tabela-especialistas tr {
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
+}
+
+.tabela-especialistas tbody tr:nth-of-type(2n+1) {
+    background-color: #cdcdcd;
+    border: 1px solid #f1f1f1;
+}
+
+.tabela-especialistas th,
+.tabela-especialistas td {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .box-img-tabela img {
+        display: none;
+    }
+
+    .tabela-especialistas {
+        width: 100%;
+    }
+
+    .box-img-tabela {
+        height: auto;
+        justify-content: center;
+    }
+
+    .container-titulo p {
+        width: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .box-img-tabela {
+        padding: 0;
+    }
+
+}
+
+/*Fim CSS Main*/
